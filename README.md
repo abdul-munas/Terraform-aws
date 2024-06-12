@@ -110,7 +110,7 @@ The following variables can be customized in variables.tf:
  - cidr: The CIDR block for the VPC (default: 10.0.0.0/16).
  
 **User Data Scripts**
-~~~
+
  - userdata1.sh and userdata2.sh: Scripts to configure the web server on each EC2 instance.
  
 **Outputs**
