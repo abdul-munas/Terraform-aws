@@ -34,12 +34,15 @@ Defines the resources for the VPC, subnets, internet gateway, route tables, secu
 Specifies the required provider and the AWS region to be used.
 
 **`userdata1.sh`** **`and`** **`userdata2.sh`**
+
 Bootstrap scripts for the EC2 instances, installing necessary packages, and configuring the web server.
 
 **`variables.tf`**
+
 Defines the input variables used in the project.
 
 **`outputs.tf`**
+
 Defines the outputs, such as the DNS name of the load balancer.
 
 **Usage**
@@ -107,7 +110,7 @@ The following variables can be customized in variables.tf:
  - cidr: The CIDR block for the VPC (default: 10.0.0.0/16).
  
 **User Data Scripts**
-
+~~~
  - userdata1.sh and userdata2.sh: Scripts to configure the web server on each EC2 instance.
  
 **Outputs**
